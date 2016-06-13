@@ -1,0 +1,9 @@
+svm_type epsilon_svr
+kernel_type rbf
+gamma 0.25
+nr_class 2
+total_sv 2
+rho -16.2452
+SV
+-1 1:16.32 2:16.01 3:16.05 4:16.18 
+1 1:16.01 2:16.05 3:16.18 4:16.11 

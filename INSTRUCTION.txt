@@ -1,0 +1,47 @@
+FILE DISTRIBUTION
+-----------------
+-
+|
++---> Documentation // final report, final presentation slides
+|
++---> Design // class, use case, sequence, system, ER, database diagrams
+|
++---> Code // project files
+    |
+    +---> Backend // programs continuously running in the backstage
+        |
+        +---> Classes // compiled java classes
+        |
+        +---> Library // jar files (API)
+        |
+    +---+---> Source // java source codes (StockForecaster.java is the main class)
+    |  
+    +---> Database // files to restore our database
+        |
+        +---> Dump // database data (csv files)
+        |
+    +---+---> Tables // database structure (sql file)
+    |
+    +---> Frontend // programs for server and clients
+        |
+        +---> Android // android application project files
+        |
+        +---> Website // programs for website (html, css, js, php), images and icons    
+
+
+SYSTEM REQUIREMENTS
+-------------------
+* To run backstage java programs, basic java environment is needed, i.e., JDK.
+* To run website, LAMP environment is needed, i.e., apache server, php environment, mysql database.
+* Our environment: Max OS X/10.9.5, java/1.8.0_31, Apache/2.2.26 (Unix), PHP/5.4.30, MySQL/5.6.22.
+* IDE using: NetBeans, Deamweaver.
+
+
+INSTRUCTIONS
+------------
+* Run sql file in Code/Database/Tables to restore the structure of our database in your MySQL database.
+* Import library and source files in Code/Backend to your java project, compile and run (This will download new data and fill your database tables, or you can just restore the data by importing csv files in Code/Database/Dump).
+* Put Frontend/Website to your server folder.
+
+
+

@@ -1,0 +1,5 @@
+For convenience, this file is a header for all source code files in Frontend folder.
+
+// written by: Dongyang Yao, Zihong Zheng, Weiran Fang
+// assisted by: Ke Dong
+// debugged by: Xi Zhang

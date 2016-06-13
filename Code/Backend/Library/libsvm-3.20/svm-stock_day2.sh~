@@ -1,0 +1,3 @@
+for i in AAPL AMZN CAJ FB GOOG MSFT SNE TWTR WMT YHOO ; do
+    ./svm-predict stock/SVMHistroy_${i}_test238.txt stock/SVMHistroy_${i}237.model stock/SVMHistroy_${i}_result238.txt   
+done
